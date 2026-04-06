@@ -15,7 +15,7 @@ Build and evaluate machine learning models to maximize business impact, with a f
 Identifying потенциальних клієнтів (high Recall)
 Maintaining good ranking quality (ROC-AUC)
 Ensuring interpretability for business stakeholders
-🔍 Data Processing & Feature Engineering
+Data Processing & Feature Engineering
 Handled class imbalance using SMOTE
 Treated unknown values as a separate category (preserving signal)
 Engineered feature:
@@ -45,12 +45,12 @@ Implemented and compared multiple models:
 |---|---|---|---|---|---|
 | Logistic Regression | 0.71 | 0.73 | 0.39 | 0.42 | Baseline model |
 | kNN | 0.71 | 0.73 | 0.39 | 0.47 | Slow, weak |
-| DT (default) | 0.63 | 0.63 | 0.32 | 0.36 | Overfitting ❌  |
+| DT (default) | 0.63 | 0.63 | 0.32 | 0.36 | Overfitting   |
 | DT (max_depth=5) | 0.75 | 0.75 | 0.47 | 0.57 | Good Recall |
 | **DT (max_depth=3)** | **0.75** | **0.76** | **0.46** | **0.61** | **Best Recall ** |
 | XGBoost (default) | 0.77 | 0.78 | 0.43 | 0.38 | Good baseline |
 | XGBoost (RandomizedSearch) | 0.76 | 0.77 | 0.43 | 0.37 | Worse than default |
-| **XGBoost (Bayesian)** | **0.78** | **0.79** | **0.46** | **0.43** | **Best ROC-AUC ✅ ** |
+| **XGBoost (Bayesian)** | **0.78** | **0.79** | **0.46** | **0.43** | **Best ROC-AUC ** |
 
 Conclusions
 
