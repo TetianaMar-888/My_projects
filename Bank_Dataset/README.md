@@ -70,4 +70,4 @@ What Can Be Improved
 DirectionHowClassification thresholdLower from 0.5 → increases RecallNew featuresAge segmentation, education+job combination, seasonalityTwo-model strategyDT3 filters out "no" → XGBoost refines the rest
 
 ## Files
-- `notebook.ipynb` — full analysis and modeling code
+- `Bank_Dataset_Machine_Learning_Project_english.ipynb` — full analysis and modeling code
