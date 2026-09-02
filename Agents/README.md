@@ -23,4 +23,4 @@ An agent combining web search (Tavily) and Python execution (PythonREPLTool) to 
 - `scipy`, `numpy`, `pandas`, `matplotlib`
 
 - ## Files
-- `notebook.ipynb` — all four tasks with code
+- `Using_prompts_and_agents_in_Langchain.ipynb` — all four tasks with code
