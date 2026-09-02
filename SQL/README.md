@@ -36,4 +36,4 @@ Covers SQL window functions:
 
 
 ## Files
-- `notebook.ipynb` — all queries with results
+- `Proj_SQL tasks.ipynb` — all queries with results
